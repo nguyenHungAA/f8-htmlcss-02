@@ -4,11 +4,17 @@ html {
 
 body {
     padding: 40px 140px;
+    background-color: #fffcf4;
+    box-sizing: border-box;
 }
+
+
+/* menu  */
 
 .menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 76px;
 }
 
 .menu img {
@@ -18,9 +24,174 @@ body {
 
 .menu ul {
     display: flex;
+}
+
+.menu ul li a {
+    font-size: 1.6rem;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #5F5B53;
+    margin-right: 36px;
+    text-decoration: none;
+}
+
+.menu ul li:first-child a {
+    font-weight: 600;
+    color: #000;
+}
+
+.menu ul li:first-child::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    left: 0;
+    bottom: 6px;
+    background: #000;
+    border-radius: 12px;
+}
+
+.menu--sign--up {
+    padding: 14px 42px;
+    margin-left: 24px;
+    width: 144px;
+    height: 50px;
+    border-radius: 999px;
+    background: #171100;
+    line-height: 2.8rem;
+
+}
+
+/* hero content */
+
+.container {
+    display: flex;
     justify-content: space-between;
 }
 
-.menu ul li {
-    font-size: 1.6rem;
+.aside--left ul {
+    --padding: 28px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    background-color: #fff;
+    width: 200px;
+    border-radius: 12px;
+    transform: translate(300px, -300px);
+}
+
+
+.aside--left ul li img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+.aside--left li {
+    display: flex;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    text-align: left;
+    color: #5F5B53;
+}
+
+.aside--left li+li {
+    margin-top: 24px;
+}
+
+.aside--left li div div:last-child {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: left;
+    color: black;
+}
+
+.aside--right {
+    padding: 52px 0 0 236px;
+}
+
+.aside--right .heading {
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 6.8rem;
+    letter-spacing: -0.02em;
+}
+
+.aside--right .desc {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #5F5B53;
+    margin: 28px 0 8px 0;
+}
+
+.aside--right button {
+    width: 180px;
+    height: 64px;
+    background: #FFB900;
+    color: #fff;
+    border-radius: 999px;
+    border: none;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.aside--right span img {
+    transform: translate(0px, 40px);
+    cursor: pointer;
+}
+
+.aside--right span {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+    cursor: pointer;
+}
+
+.engagement {
+    margin-top: 46px;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: left;
+    color: #5F5B53;
+
+}
+
+.empha {
+    display: inline-block;
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 5.4rem;
+    text-align: left;
+    color: #000;
+    margin: 16px 4px 0 0;
+    padding-right: 4px;
+}
+
+.engagement span {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: left;
+    cursor: none;
+}
+
+.engagement span {
+    margin-right: 36px;
 }
