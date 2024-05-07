@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 40px 140px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu img {
+    width: 85px;
+    height: 34px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    font-size: 1.6rem;
+}
