@@ -1,15 +1,8 @@
-html {
-    font-size: 62.5%;
-}
-
-body {
+/* menu  */
+.hero {
     padding: 40px 140px;
     background-color: #fffcf4;
-    box-sizing: border-box;
 }
-
-
-/* menu  */
 
 .menu {
     display: flex;
@@ -94,7 +87,6 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.6rem;
-    text-align: left;
     color: #5F5B53;
 }
 
@@ -194,4 +186,369 @@ body {
 
 .engagement span {
     margin-right: 36px;
+}
+
+/* courses */
+
+.courses {
+    padding: 40px 140px;
+    background-color: #fff;
+    margin: 150px 0 196px 0;
+}
+
+.courses_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses_header img {
+    width: 98px;
+    height: 40px;
+}
+
+.courses_headline {
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    letter-spacing: -0.02em;
+}
+
+.courses--desc {
+    width: 458px;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #5F5B53;
+    padding-top: 18px;
+}
+
+.card--container {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card div {
+    padding: 12px 12px 0 12px;
+}
+
+.card_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_title img {
+    width: 48px;
+    height: 28px;
+}
+
+.card_desc {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #5F5B53;
+
+}
+
+.card_price {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.page_courses_btn {
+    width: 118px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 14px;
+    margin: 0;
+}
+
+.card_end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: var(--cardwidth);
+    padding-bottom: 32px;
+    box-shadow: 0px 18px 36px 0px #0000000D;
+    border-radius: 12px;
+}
+
+.card--header {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+/* feedback */
+
+.feedback {
+    background: #2E2100;
+}
+
+.feedback-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback-item:nth-child(odd) {
+    display: none;
+}
+
+.info .name {
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem;
+    color: #f7f7f7;
+    padding: 12px 0 8px 0;
+}
+
+.info .desc {
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    text-align: left;
+    color: #BFBCB2;
+}
+
+.dots {
+    margin-top: 16px;
+}
+
+.dots .dot {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+}
+
+.dots .active {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FFB900;
+    margin: 0 16px;
+}
+
+.dots .dot:last-child {
+    margin-left: 32px;
+}
+
+.feedback-item .content {
+    width: 770px;
+    height: 188px;
+}
+
+.feedback-item .content img {
+    transform: translate(-32px, 4px);
+}
+
+.feedback-item blockquote {
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem;
+    color: #fff;
+}
+
+/* features */
+
+.features-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.features-main-content .images {
+    display: flex;
+    gap: 32px;
+}
+
+.features-main-content .images img:first-child {
+    padding-top: 64px;
+}
+
+.features-text {
+    width: 470px;
+    height: 322px;
+}
+
+
+
+/* cta */
+
+.cta-main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main-content .text {
+    width: 570px;
+    height: 298px;
+}
+
+.cta-main-content img {
+    min-width: 470px;
+    height: 440px;
+
+}
+
+/* blog */
+
+.blog {
+    background: #FFFCF4;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-main-content .blog-intro,
+.blog-intro .content {
+    width: 448px;
+    height: 120px;
+    text-align: center;
+}
+
+.blog-intro {
+    margin: 64px 0;
+}
+
+.blog-card-container {
+    display: flex;
+    gap: 32px;
+}
+
+.blog-card-container .blog-card {
+    width: 370px;
+    padding-bottom: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 36px 0px #0000000D;
+
+}
+
+.blog-card img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog-card .desc {
+    padding: 12px 24px;
+}
+
+.blog-card .date {
+    font-family: Poppins;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #5F5B53;
+    padding: 0 0 8px 12px;
+    position: relative;
+}
+
+.blog-card .date::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #FFB900;
+    border-radius: 50%;
+    top: 9px;
+    left: 0;
+}
+
+.blog-card,
+.card-content {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.blog-main-content .dots {
+    margin-top: 32px;
+}
+
+/* footer */
+
+.footer {
+    background: #2E2100;
+}
+
+.footer-main-content {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 110px;
+    outline: 1px solid #59554B;
+}
+
+.footer-help {
+    width: 25%;
+}
+
+.footer-help .content {
+    color: #BFBCB2;
+}
+
+.footer-social-icons a {
+    margin-right: 16px;
+}
+
+.footer-contact {
+    width: 16%;
+
+}
+
+.footer-heading {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #59554B;
+}
+
+.footer-contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-contact ul a {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #BFBCB2;
+    margin-bottom: 12px;
 }
