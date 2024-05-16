@@ -462,9 +462,9 @@
 .blog-card .date {
     font-family: Poppins;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 2.6rem;
     text-align: left;
     color: #5F5B53;
     padding: 0 0 8px 12px;
@@ -485,9 +485,9 @@
 .blog-card,
 .card-content {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 2.8rem;
 
 }
 
@@ -503,9 +503,7 @@
 
 .footer-main-content {
     display: flex;
-    /* justify-content: space-between; */
     gap: 110px;
-    outline: 1px solid #59554B;
 }
 
 .footer-help {
@@ -527,9 +525,9 @@
 
 .footer-heading {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 2.8rem;
     text-align: left;
     color: #fff;
     margin-bottom: 24px;
@@ -545,10 +543,31 @@
 
 .footer-contact ul a {
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 2.6rem;
     text-align: left;
     color: #BFBCB2;
     margin-bottom: 12px;
+}
+
+.copyrights p {
+    font-family: Poppins;
+    position: relative;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    text-align: center;
+    padding-bottom: 28px;
+    color: #59554B;
+}
+
+.copyrights p::before {
+    content: "";
+    position: absolute;
+    left: 135px;
+    top: -44px;
+    height: 1px;
+    width: 1192px;
+    background-color: #59554B;
 }
